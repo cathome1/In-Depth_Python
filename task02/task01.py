@@ -7,7 +7,7 @@
 # В модуль с проверкой даты добавьте возможность запуска в терминале с передачей даты на проверку.
 from sys import argv
 
-__all__ = ["is_true_date","date_from_term"]
+__all__ = ["is_true_date", "date_from_term"]
 
 
 def _is_leap_year(year):
@@ -34,6 +34,7 @@ def is_true_date(str_date: str):
 
 def date_from_term(arg=argv):
     return is_true_date(arg[-1])
+
 
 if __name__ == "__main__":
     print(date_from_term())
