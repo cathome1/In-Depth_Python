@@ -17,4 +17,4 @@ def from_pickle_to_csv(pickle_file, csv_file="task05.csv"):
 
 
 if __name__ == '__main__':
-    from_pickle_to_csv("task03.pickle")
+    from_pickle_to_csv("../task03.pickle")

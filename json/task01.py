@@ -31,4 +31,4 @@ def parse_info(file_name):
 
 
 if __name__ == '__main__':
-    parse_info("file.json")
+    parse_info("../file.json")

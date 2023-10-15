@@ -15,4 +15,4 @@ def json_to_csv(file_name: str):
                 writer.writerow({"access":item[0],"id":person[0],"name":person[1]})
 
 if __name__ == '__main__':
-    json_to_csv("file.json")
+    json_to_csv("../file.json")

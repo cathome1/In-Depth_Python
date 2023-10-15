@@ -23,4 +23,4 @@ def from_csv_to_json(start_file,end_file):
 
 
 if __name__ == '__main__':
-    from_csv_to_json("file.csv","task03.json")
+    from_csv_to_json("../file.csv", "task03.json")
